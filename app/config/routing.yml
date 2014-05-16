@@ -1,0 +1,10 @@
+crud_test:
+    resource: "@CrudTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+crud_prod:
+    resource: "@CrudTestBundle/Resources/config/routing/produit.yml"
+    prefix:   /produit
+
+
